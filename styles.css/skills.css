@@ -1,0 +1,47 @@
+/***** Conocimientos *****/
+.skills-section {
+    background-color: #eff0f1;
+}
+
+/* grilla conocimientos */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+.container .card {
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #dddfe5;
+    flex-wrap: wrap;
+    width: 260px;
+    height: 220px;
+    margin: 10px;
+    padding: 30px;
+    text-align: center;
+    transition: all 0.25s;
+}
+.container .card:hover {
+    border: 1px solid #9B006C
+}    
+.container .card img {
+    width: 200px;
+    height: 100px;
+    padding-top: 10px;
+}
+.container .card h3 {
+    font-weight: 700;
+    font-size: 1.25em;
+}
+.container .card:hover h3 {
+    color: #9B006C;
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0.5em;
+        font-size: 0.8em;
+        padding: 0.20px;
+    }   
+ }
